@@ -18,7 +18,9 @@ background-size: cover;
 }
 
 
-
+.h4{
+    color: red;
+}
 
 #name {
     grid-column: 2 / 4;
