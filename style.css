@@ -1,0 +1,40 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+body {
+height: 100%; 
+width: 100%; 
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+justify-content: center;
+background-image: url("https://images.ctfassets.net/ok4ye39unadd/1W8NJ1jM1Ji0zzMWQfoGzn/64749943227a8af14a5951e6c78bf419/7.png?h=1000&fm=jpg"); 
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+#name {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    font-size: 80px;
+    
+}
+
+#tmpl{
+    grid-column: 2/4;
+    grid-row: 1 / 2;
+    font-size: 40px;
+}
+
+#done {
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+    font-size: 40px;
+}
