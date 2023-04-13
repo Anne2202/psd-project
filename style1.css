@@ -1,42 +1,44 @@
-html{
-    background-color: rgba(24, 153, 125, 0.842);
-    height: auto;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     width: 100%;
+    background-color: rgba(24, 153, 125, 0.842);
 }
+
 body{
-    height: 90%;
+    height: 98%;
     width: 98%;
-    border: 2px dashed green;
+    border: 2px dashed rgb(1, 46, 33);
     padding: 0.5%;
+    margin: 1vh 1vw;
 }
 header{
 
     height: 50%;
     width: 100%;
-    
+    margin: 0;
 }
 #btnsbox {
-    height: 3.8vh;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    height: 8.8vh;
+    border: 0.9vh solid rgb(16, 95, 69);
+    align-items: center;
+    width: 98%;
+    box-sizing: content-box;
     justify-content: space-around;
-    border: 0.9vh solid white;
-    margin: 0.1vh;
-    padding: 1vh;
-    width: auto;
-    min-width: none;
-    padding-top: 1.5vh;
-
 }
-    
 nav a{
-    padding: 0.1em;
+    padding: 0.1vh 0.1vw;
     border: 0.2em solid white;
-    border-radius: 2%;
-    font-size: 1.01em;
+    border-radius: 15%;
+    font-size: 2.9vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(16, 95, 69);
     color: white;
     text-decoration: none;
+    margin-left: 5vw;
 }
 
 nav :hover{
@@ -48,23 +50,33 @@ nav :hover{
 
 }
 /************************************************************/
+#Top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #intrtext{
 color: white;
 text-justify: center;
 text-align: center;
+height: 12vh;
+margin-top: 6vh;
+margin-bottom: -2VH;
+font-size: 2.8vh;
+text-shadow: 3px 3px 30px black;
 }
 
 #cvrimg{
-    margin-top: 1%;
-    height:77%;
-    width: 99%;
-    margin-left: 0.1vh;
+    height:35vh;
+    width: 90vw;
     border: 3px;
     border-color: white;
     border-style: double;
+    margin-bottom: 6vh;
     
-    
-
 }
 /************************************************************/
 
@@ -77,7 +89,8 @@ ul{
     flex-wrap: wrap;
     width: auto;
     justify-content: center;
-    border: 3px solid white;
+    border: 5px solid rgb(16, 95, 69);
+    border-radius: 2%;
     
 }
 img{
@@ -102,8 +115,8 @@ h4{
     border: 2px solid;
     border-radius: 15%;
     padding: 3px;
-    height: 350px;
-    width: 350px;
+    height: 45vh;
+    width: 28vw;
     margin: 1%;
     text-align: center;
     color: white;
